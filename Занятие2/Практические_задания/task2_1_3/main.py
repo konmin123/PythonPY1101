@@ -4,7 +4,7 @@ from itertools import count
 def last_gen():
     for current_number in count(1):
         yield current_number
-        if current_number == 5:
+        if current_number == 7:
             return
 
 

@@ -3,15 +3,15 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 28
-    length: 38
+  - offset: 34
+    length: 50
     placeholder_text: '...  # TODO записать функцию-генератор'
     initial_state:
       length: 38
       offset: 28
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       n = 0
           while True:
@@ -40,5 +40,8 @@ files:
     1000
     10000
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Tue, 16 Nov 2021 17:19:39 UTC
 record: -1
